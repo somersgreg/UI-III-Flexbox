@@ -159,21 +159,21 @@ h5 {
     margin-bottom: 15px;
 }
 
-
+/* 321654987321654987321654987654321654987654321654987654321654987654321654987654321654987654321654987654321984 */
 /* Your code starts here! */
 
 .container {
-    width: 880px;
-    margin: auto;
+    width: 55em; /* might need to play in dev tools. Should work with all screens */
+    margin: 20px auto;  /* Needs to be auto. Top/Bottom / Right/Left. */
 }
 
 header {
-    padding: 20px 20px 20px;
+    display:flex;  /* Puts G.Idea image inline */
 }
 
 nav {
-    display: inline-block;
-    width: 75%;
+
+
 }
 
 nav a {
@@ -183,31 +183,34 @@ nav a {
 }
 
 
-/* Your code starts here! */
+Your code starts here! */
 
 .intro-container {
-    text-align: center;
+    Display:flex;
+    justify-content: space-evenly;
 }
-
+.intro-container img{
+    margin:0;
+    width:25%;  /* ball big/small*/
+}
 .intro {
-    display: inline-block;
-    width: 450px;
-    text-align: center;
-    padding: 0px 0px 40px;
+    display: flex;
+    justify-content: space-around;
+    /* padding: 0px 0px 40px; */
 }
 
 .intro h1 {
     font-size: 50pt;
 }
 
-.intro-image {
+/* .intro-image {
     display: inline-block;
     width: 30%;
     padding: 20px 10px 10px 20px;
-}
+} */
 
 .intro button {
-    padding: 5px 40px 5px;
+    /* padding: 5px 40px 5px; */
     border: 1px solid black;
     font-family: “Titillium Web”;
 }
